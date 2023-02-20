@@ -64,4 +64,16 @@ a{
 .linke{
     color: black;
 }
+body{
+    text-align: center;
+}
+ul{
+    text-decoration: none;
+}
+li {
+    display : flex;
+    width : 33%;
+    flex-direction: row; 
+}
+
 

@@ -1,0 +1,42 @@
+.bandeau{
+    background-position: top;
+    background-image: url(https://www.hdruk.ac.uk/wp-content/uploads/2019/02/shutterstock_772368733-e1620293728465.jpg);
+    background-repeat: no-repeat, repeat;
+    background-attachment: fixed;
+    float: none;
+    background-size: 100% !important;
+    height: 250px !important;
+    width: 100% !important;
+    text-align: center !important;
+    display: flex !important;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+header{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: -8px;
+    color: white;
+    text-decoration: none;
+}
+.pro{
+    margin: auto;
+    font-size: 70px !important;
+    color: white !important;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.sisr{
+    flex: 1 0 0%;
+}
+.slam{
+    flex: 1 0 0%;
+}
+.td{
+display: flex;
+}
