@@ -1,0 +1,67 @@
+.bandeau{
+    background-position: top;
+    background-image: url(https://www.hdruk.ac.uk/wp-content/uploads/2019/02/shutterstock_772368733-e1620293728465.jpg);
+    background-repeat: no-repeat, repeat;
+    background-attachment: fixed;
+    float: none;
+    background-size: 100% !important;
+    height: 250px !important;
+    width: 100% !important;
+    text-align: center !important;
+    display: flex !important;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+header{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: -8px;
+    color: white;
+    text-decoration: none;
+}
+.pro{
+    margin: auto;
+    font-size: 70px !important;
+    color: white !important;
+}
+.pres{
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+.grille{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    
+}
+.bouton{
+    background-color: black;
+    border: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 29.5%;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: center !important;
+    border-radius: 0.5rem;
+    color: rgb(253, 251, 251);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.linke{
+    color: black;
+}
+
